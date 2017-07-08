@@ -1,5 +1,5 @@
 ## Codility Lessons Solutions in Swift 3
-Hey, just for a fun. Some solutions for codility lesson for my reference or may benefit to others
+Hey, just for a fun. Some solutions for [Codility](https://codility.com/programmers/) lesson for my reference or may benefit to others
 
 ### Lesson 3 - FrogJmp
 ```swift
