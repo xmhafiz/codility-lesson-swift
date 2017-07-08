@@ -1,2 +1,23 @@
-# codility-lesson-swift
-Solution for codility lesson just for my future reference or may benefit to others
+## Codility Lessons Solutions in Swift 3
+Hey, just for a fun. Some solutions for codility lesson for my reference or may benefit to others
+
+### Lesson 3 - FrogJmp
+```swift
+public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
+    
+    if X == Y { return 0 }
+    
+    var count = 0
+    
+    if (Y - X) % D == 0 {
+        count = (Y - X) / D
+    }
+    else {
+        count = (Y - X) / D + 1
+    }
+    
+    return count
+}
+```
+
+
