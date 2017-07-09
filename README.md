@@ -36,3 +36,28 @@ public func solution(_ A : inout [Int]) -> Int {
 
 ```
 
+### Lesson 4 - FrogRiverOne
+```swift
+public func solution(_ X : Int, _ A : inout [Int]) -> Int {
+    // write your code in Swift 3.0 (Linux)
+    
+    var arr = Array(repeating: 0, count: X)
+    
+    let expectedSum = X * (X + 1) / 2
+    
+    var sum = 0
+    for (i, num) in A.enumerated() {
+
+        if arr[num - 1] == 0 {
+            arr[num - 1] = num
+            sum += num
+            if sum == expectedSum {
+                return i
+            }
+        }
+    }
+ 
+    return -1
+}
+```
+
